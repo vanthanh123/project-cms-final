@@ -1,0 +1,77 @@
+#masthead .col-full .site-branding {
+  display: none;
+}
+
+.form-search-product-header {
+  display: none;
+}
+
+.form-search-product-header.active {
+  display: block;
+}
+
+#masthead .storefront-primary-navigation .header-top {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.site-name-brand {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-name-brand p {
+  margin: 0;
+  font-size: xx-large;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: #3c3c3c;
+}
+
+.header-top .row .header-search {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.header-top .row .col-md-5 .site-header-search,
+.site-header-profile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 25px;
+}
+
+.site-header-cart li .cart-contents::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07a";
+  font-size: 1.3em;
+  color: #747474;
+}
+
+.header-top .row .col-md-5 .site-header-cart {
+  width: auto;
+}
+
+.site-header-cart li .cart-contents .count {
+  position: absolute;
+  top: 23px;
+  left: 14px;
+  border: 1px solid black;
+  opacity: 1;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 17px;
+  width: 17px;
+  background: white;
+  color: black;
+}
+
+.menu-header-top #site-navigation .primary-navigation #menu-botiga-shop {
+  font-size: large;
+  color: #dd0d0d;
+}
