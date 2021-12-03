@@ -1,0 +1,65 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.footer-widget-1,.footer-widget-2, .footer-widget-3 {
+    padding-right: 3%;
+    margin: 0% !important;
+    font-size: 18px;
+}
+.footer-widget-1{
+      width: 60% !important;
+  
+}
+.footer-widget-2, .footer-widget-3{
+      width: 20% !important;
+}
+.footer-widget-3 {
+  padding-right: 0;
+  padding-left:3%;
+}
+
+.footer-title{
+font-size: 25px;
+    font-weight: 600;
+}
+.site-footer ul li{
+      padding-bottom: 10px;
+}
+.site-footer a{
+  color: #000000 !important;
+    text-decoration: none;
+}
+
+.site-footer .site-info{
+      grid-template-columns: 1fr 1fr;
+    display: grid;  
+}
+
+.site-footer .site-info .ftright{
+  text-align:right;
+  padding-right: 5%;
+}
+
+.site-footer .site-info .ftright{
+    text-decoration: underline;
+}
+.site-footer .site-info .ftleft{
+  padding-left: 5%;
+}
+.social-profile a {
+      font-size: 20px;
+    margin-right: 40px;
+}
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->
