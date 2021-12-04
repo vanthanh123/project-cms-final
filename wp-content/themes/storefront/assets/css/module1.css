@@ -111,4 +111,8 @@
 .is-form-style {
   display: flex;
 }
+
+.pum-theme-26, .pum-theme-lightbox { 
+  background-color: rgb(33 33 33 / 30%) ;
+} 
 /* Module 2 end*/
