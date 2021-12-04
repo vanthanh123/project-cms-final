@@ -255,6 +255,12 @@ if ( ! class_exists( 'Storefront' ) ) :
 				'description' => __( 'Widgets added to this region will appear beneath the header and above the main content.', 'storefront' ),
 			);
 
+			$sidebar_args['taxonomy'] = array(
+				'name'        => __( 'Category', 'storefront' ),
+				'id'          => 'taxonomy',
+				'description' =>  '' ,
+			);
+
 			$rows    = intval( apply_filters( 'storefront_footer_widget_rows', 1 ) );
 			$regions = intval( apply_filters( 'storefront_footer_widget_columns', 4 ) );
 
