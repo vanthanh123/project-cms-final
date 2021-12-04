@@ -2,8 +2,8 @@
 
 	<div id="popmake-<?php pum_popup_ID(); ?>" class="<?php pum_popup_classes( null, 'container' ); ?>">
 
-		<?php do_action( 'pum_popup_before_title' ); ?>
-		<?php do_action( 'popmake_popup_before_inner' ); // Backward compatibility. ?>
+		<?php //do_action( 'pum_popup_before_title' ); ?>
+		<?php //do_action( 'popmake_popup_before_inner' ); // Backward compatibility. ?>
 
 
 		<?php
