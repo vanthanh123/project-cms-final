@@ -15,14 +15,14 @@ End of comment */
   text-align: center;
 }
 
-.entry-taxonomy #block-11 p{
+.entry-taxonomy .taxonomy-title p{
     color: #000000;
 }
 
 .entry-taxonomy .wp-block-group{
   margin: 5px 10px;
 }
-.entry-taxonomy #block-12 .wp-block-group__inner-container{
+.entry-taxonomy .taxonomy-img .wp-block-group__inner-container{
   display: flex;
 }
 .entry-taxonomy .block-column .wp-block-group__inner-container{
