@@ -1,6 +1,7 @@
 /* Module 1  */
 #masthead {
   padding-top: 0;
+  margin-bottom: 0;
 }
 
 .site-branding-and-search {
@@ -115,4 +116,8 @@
 .pum-theme-26, .pum-theme-lightbox { 
   background-color: rgb(33 33 33 / 30%) ;
 } 
+
+.is-form-id-16 .is-search-submit:focus, .is-form-id-16 .is-search-submit:hover, .is-form-id-16 .is-search-submit, .is-form-id-16 .is-search-icon {
+  border: none;
+}
 /* Module 2 end*/
