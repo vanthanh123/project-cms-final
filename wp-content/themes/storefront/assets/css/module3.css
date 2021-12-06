@@ -1,0 +1,139 @@
+/* css description and review  */
+.storefront-full-width-content .review-single-product ul.tabs {
+  display: flex;
+  border-top: none;
+  width: 100%;
+  border-bottom: 1px solid rgba(33,33,33,.3);
+}
+
+.review-single-product ul.tabs li::after {
+  content: "";
+}
+
+.storefront-full-width-content .woocommerce-tabs .content-review-tabs-panel {
+  width: 100%;
+}
+
+.storefront-full-width-content .woocommerce-tabs .content-review-tabs-panel h2 {
+  display: none;
+}
+
+.review-single-product ul.tabs li {
+  padding-left: 1px;
+  font-size: larger;
+  color: #212121;
+  width: 16%;
+  text-align: center;
+  
+}
+
+.review-single-product ul.tabs li.active a {
+  color: #212121;
+  border-bottom: 2px solid black;
+  outline: 1px dotted black;
+}
+
+.review-single-product ul.tabs li a {
+  color: #212121;
+}
+.content-review-tabs-panel p {
+  color: #212121;
+}
+/* css description and review end*/
+
+/* css product info  */
+.woocommerce-breadcrumb {
+  font-size: 16px;
+}
+
+.woocommerce-breadcrumb a:first-of-type::before {
+  display: none;
+}
+
+.woocommerce-breadcrumb a {
+  text-decoration: none;
+}
+
+.storefront-breadcrumb {
+  padding: 80px 0 1.41575em 0;
+  margin: 0;
+}
+
+.storefront-full-width-content.single-product div.product .single-product-image {
+  width: 50%;
+  margin-right: 0;
+}
+
+.single-product-image .main-product-image .woocommerce-product-gallery__image a img {
+  width: 100%;
+  height: 100%;
+}
+
+.storefront-full-width-content.single-product div.product .sumary-infor-product {
+  width: 50%;
+  float: right;
+  padding-left: 40px;
+  margin-right: 0;
+  margin-bottom: 3.706325903em;
+}
+
+.sumary-infor-product .woocommerce-product-details__short-description p {
+  color: #212121;
+}
+
+.sumary-infor-product .product_title, .price {
+  font-weight: 600;
+  color: #212121;
+}
+
+.single-product div.product .sumary-infor-product form.cart {
+  display: flex;
+  margin-bottom: 0;
+  padding: 2.5em 0;
+}
+
+.single-product div.product .sumary-infor-product form.cart .single_add_to_cart_button {
+  width: 100%;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  background-color: #212121;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+
+.single-product div.product .sumary-infor-product form.cart .single_add_to_cart_button:hover {
+  background-color: #757575;
+}
+
+.single-product div.product .sumary-infor-product form.cart .quantity .qty {
+  width: 100%;
+  padding: 18px 0;
+}
+
+.single-product div.product .sumary-infor-product .product_meta {
+  padding-top: 32px;
+  border-top: 1px solid rgba(33,33,33,0.2);
+}
+
+.single-product div.product .sumary-infor-product .product_meta .posted_in {
+  font-size: 16px;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.single-product div.product .sumary-infor-product .product_meta .posted_in a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #212121;
+  text-transform: none;
+}
+/* css product info end */
+
+
+
+
+
+
+
