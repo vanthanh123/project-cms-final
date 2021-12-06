@@ -542,12 +542,14 @@ if ( ! function_exists( 'storefront_post_taxonomy' ) ) {
 	 * @since 2.4.0
 	 */
 	function storefront_post_taxonomy() {
+		if ( is_active_sidebar( 'module-8' ) ) {
 	?>
 		<aside class="entry-highlighted">
 		<?php dynamic_sidebar( 'module-8' ); ?>
 		</aside>
 
 		<?php
+		}
 	}
 }
 
