@@ -10,7 +10,6 @@ For example:
 For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
 
 End of comment */ 
-
 .entry-highlighted .wp-block-button__link {
   border-radius: inherit !important;
 }
@@ -18,6 +17,9 @@ End of comment */
   border-top: none !important;
 }
 
+.entry-highlighted .wp-block-nk-awb {
+    padding: 125px 30px;
+}
 
 </style>
 <!-- end Simple Custom CSS and JS -->
