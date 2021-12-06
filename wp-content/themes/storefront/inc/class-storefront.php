@@ -254,6 +254,11 @@ if ( ! class_exists( 'Storefront' ) ) :
 				'id'          => 'header-1',
 				'description' => __( 'Widgets added to this region will appear beneath the header and above the main content.', 'storefront' ),
 			);
+			$sidebar_args['module8'] = array(
+				'name'        => __( 'Highlighted Section', 'storefront' ),
+				'id'          => 'module-8',
+				'description' => '',
+			);
 
 			$rows    = intval( apply_filters( 'storefront_footer_widget_rows', 1 ) );
 			$regions = intval( apply_filters( 'storefront_footer_widget_columns', 4 ) );
@@ -499,42 +504,44 @@ if ( ! class_exists( 'Storefront' ) ) :
 			$accent_color     = get_theme_mod( 'storefront_accent_color' );
 			$background_color = storefront_get_content_background_color();
 			?>
-			<style type="text/css">
-				.wp-embed {
-					padding: 2.618em !important;
-					border: 0 !important;
-					border-radius: 3px !important;
-					font-family: "Source Sans Pro", "Open Sans", sans-serif !important;
-					background-color: <?php echo esc_html( storefront_adjust_color_brightness( $background_color, -7 ) ); ?> !important;
-				}
+<style type="text/css">
+.wp-embed {
+    padding: 2.618em !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    font-family: "Source Sans Pro", "Open Sans", sans-serif !important;
+    background-color: <?php echo esc_html(storefront_adjust_color_brightness($background_color, -7));
+    ?> !important;
+}
 
-				.wp-embed .wp-embed-featured-image {
-					margin-bottom: 2.618em;
-				}
+.wp-embed .wp-embed-featured-image {
+    margin-bottom: 2.618em;
+}
 
-				.wp-embed .wp-embed-featured-image img,
-				.wp-embed .wp-embed-featured-image.square {
-					min-width: 100%;
-					margin-bottom: .618em;
-				}
+.wp-embed .wp-embed-featured-image img,
+.wp-embed .wp-embed-featured-image.square {
+    min-width: 100%;
+    margin-bottom: .618em;
+}
 
-				a.wc-embed-button {
-					padding: .857em 1.387em !important;
-					font-weight: 600;
-					background-color: <?php echo esc_attr( $accent_color ); ?>;
-					color: #fff !important;
-					border: 0 !important;
-					line-height: 1;
-					border-radius: 0 !important;
-					box-shadow:
-						inset 0 -1px 0 rgba(#000,.3);
-				}
+a.wc-embed-button {
+    padding: .857em 1.387em !important;
+    font-weight: 600;
+    background-color: <?php echo esc_attr($accent_color);
+    ?>;
+    color: #fff !important;
+    border: 0 !important;
+    line-height: 1;
+    border-radius: 0 !important;
+    box-shadow:
+        inset 0 -1px 0 rgba(#000, .3);
+}
 
-				a.wc-embed-button + a.wc-embed-button {
-					background-color: #60646c;
-				}
-			</style>
-			<?php
+a.wc-embed-button+a.wc-embed-button {
+    background-color: #60646c;
+}
+</style>
+<?php
 		}
 	}
 endif;

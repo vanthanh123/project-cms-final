@@ -542,25 +542,9 @@ if ( ! function_exists( 'storefront_post_taxonomy' ) ) {
 	 * @since 2.4.0
 	 */
 	function storefront_post_taxonomy() {
-		/* translators: used between list items, there is a space after the comma */
-		$categories_list = get_the_category_list( __( ', ', 'storefront' ) );
-
-		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', __( ', ', 'storefront' ) );
-		?>
-
-		<aside class="entry-taxonomy">
-			<?php if ( $categories_list ) : ?>
-			<div class="cat-links">
-				<?php echo esc_html( _n( 'Category:', 'Categories:', count( get_the_category() ), 'storefront' ) ); ?> <?php echo wp_kses_post( $categories_list ); ?>
-			</div>
-			<?php endif; ?>
-
-			<?php if ( $tags_list ) : ?>
-			<div class="tags-links">
-				<?php echo esc_html( _n( 'Tag:', 'Tags:', count( get_the_tags() ), 'storefront' ) ); ?> <?php echo wp_kses_post( $tags_list ); ?>
-			</div>
-			<?php endif; ?>
+	?>
+		<aside class="entry-highlighted">
+		<?php dynamic_sidebar( 'module-8' ); ?>
 		</aside>
 
 		<?php
