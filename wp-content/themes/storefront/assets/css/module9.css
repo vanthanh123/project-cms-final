@@ -1,0 +1,29 @@
+.entry-taxonomy {
+    text-align: center;
+}
+
+.entry-taxonomy .taxonomy-title p {
+    color: #000000;
+}
+
+.entry-taxonomy .wp-block-group {
+    margin: 5px 10px;
+}
+
+.entry-taxonomy .taxonomy-img .wp-block-group__inner-container {
+    display: flex;
+}
+
+.entry-taxonomy .block-column .wp-block-group__inner-container {
+    display: block !important;
+}
+
+.entry-taxonomy a {
+    color: #000000;
+}
+
+.entry-taxonomy a:hover,
+a:focus,
+a:active {
+    color: #757575;
+}
