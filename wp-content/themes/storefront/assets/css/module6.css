@@ -38,4 +38,112 @@ ul.list-product-feature li.product img {
   background-color: #757575;
 }
 
+ul.list-product-feature li.product {
+  position: relative;
+}
+
+ul.list-product-feature li.product a.yith-wcqv-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 46%;
+  bottom: 43%;
+  left: 25%;
+  right: 20%;
+  padding: 0px 22px;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #212121;
+  color: #fff;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  width: 50%;
+}
+
+ul.list-product-feature li.product a.yith-wcqv-button:hover {
+  background-color: #757575;
+  transition: all, 0.4s;
+}
+
+.quick-view-product-overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all, 0.4s;
+  background: rgb(255 255 255 / 11%);
+}
+
+.quick-view-product-overlay:hover {
+  opacity: 1;
+}
+
+ul.list-product-feature li.product .quick-view-product {
+  position: absolute;
+  width: 92%;
+  height: 74%;
+  top: 0;
+}
+
+ul.list-product-feature li.product .quick-view-button-shop-page {
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  top: 0;
+}
+
+.quick-view-button-shop-page .quick-view-product-overlay {
+  width: 100%;
+}
+
+ul.list-product-feature li.product .quick-view-button-shop-page .quick-view-product-overlay a.yith-wcqv-button {
+  width: 58%;
+  font-size: 10px;
+  left: 21%;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper {
+  width: 800px;
+  height: 564px;
+}
+
+#yith-quick-view-modal .yith-wcqv-main {
+  box-shadow: none;
+  padding: 35px;
+}
+
+#yith-quick-view-content div.images {
+  width: 48%;
+}
+
+#yith-quick-view-content div.summary {
+  width: 48%;
+  padding: 0;
+  float: right;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content h1.product_title {
+  font-weight: 400;
+  font-family: Inter,sans-serif;
+  color: #212121;
+  margin: 0 0 0.2em 0;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content p.price {
+  font-size: 1.71575em;
+  margin: 0 0 25px 0;
+  font-weight: 600;
+  color: #212121;
+  font-family: Inter,sans-serif;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content .woocommerce-product-details__short-description{
+  color: #212121;
+  font-family: Inter, sans-serif;
+}
+
 
