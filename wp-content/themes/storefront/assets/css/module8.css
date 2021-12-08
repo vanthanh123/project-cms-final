@@ -1,0 +1,11 @@
+.entry-highlighted .wp-block-button__link {
+    border-radius: inherit !important;
+}
+
+.entry-taxonomy {
+    border-top: none !important;
+}
+
+.entry-highlighted .wp-block-nk-awb {
+    padding: 125px 30px;
+}
