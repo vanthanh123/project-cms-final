@@ -27,3 +27,29 @@ a:focus,
 a:active {
     color: #757575;
 }
+
+.module-9 {
+    margin: 100px 0;
+}
+
+.module-9 .wp-block-group {
+    margin: 5px 10px;
+}
+
+.module-9 .taxonomy-img .wp-block-group__inner-container {
+    display: flex;
+}
+
+.module-9 .block-column .wp-block-group__inner-container {
+    display: block !important;
+}
+
+.module-9 a {
+    text-decoration: none !important;
+}
+
+.module-9 a:hover,
+a:focus,
+a:active {
+    color: #757575;
+}
