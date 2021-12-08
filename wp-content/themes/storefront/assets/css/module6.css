@@ -146,4 +146,65 @@ ul.list-product-feature li.product .quick-view-button-shop-page .quick-view-prod
   font-family: Inter, sans-serif;
 }
 
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content div.quantity {
+  border: 2px solid #212121;
+}
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content .quantity .qty {
+  width: 6.813em;
+  height: 61px;
+  background: transparent;
+  color: #212121;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content .quantity .qty:focus {
+  outline-color: #212121;
+}
+
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content form.cart button.single_add_to_cart_button {
+  width: 64%;
+  height: 61px;
+  margin-left: 6px;
+  text-transform: uppercase;
+  font-weight: 100;
+  background: #212121;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content form.cart {
+  display: flex;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content form.cart button.single_add_to_cart_button:hover {
+  background-color: #757575;
+  transition: all, 0.4s;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content div.product_meta {
+  font-size: .9em;
+  padding-top: 2.618em;
+  border-top: 1px solid rgba(33,33,33,0.2);
+  text-transform: uppercase;
+  color: #212121;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .summary-content div.product_meta span.posted_in a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  text-transform: none;
+}
+
+#yith-quick-view-modal .yith-wcqv-wrapper .yith-wcqv-main .yith-wcqv-head a#yith-quick-view-close {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 1;
+  border: none;
+  outline: none;
+}
+
+
+
 
