@@ -142,11 +142,11 @@ if (!function_exists('storefront_credit')) {
 	{
 		$links_output = '';
 
-		if (apply_filters('storefront_credit_link', true)) {
-			if (storefront_is_woocommerce_activated()) {
-				$links_output .= '<a href="https://woocommerce.com" target="_blank" title="' . esc_attr__('WooCommerce - The Best eCommerce Platform for WordPress', 'storefront') . '" rel="noreferrer">' . esc_html__('Built with Storefront &amp; WooCommerce', 'storefront') . '</a>.';
+		if ( apply_filters( 'storefront_credit_link', true ) ) {
+			if ( storefront_is_woocommerce_activated() ) {
+				$links_output .='. Proudly powered by'. '<a href="http://project-finish-cms.local/" target="_blank" title="' . esc_attr__( 'Botiga', 'storefront' ) . '" rel="noreferrer">' . esc_html__( ' Botiga', 'storefront' ) . '</a>.';
 			} else {
-				$links_output .= '<a href="https://woocommerce.com/storefront/" target="_blank" title="' . esc_attr__('Storefront -  The perfect platform for your next WooCommerce project.', 'storefront') . '" rel="noreferrer">' . esc_html__('Built with Storefront', 'storefront') . '</a>.';
+				$links_output .= '. Proudly powered by'.'<a href="http://project-finish-cms.local/" target="_blank" title="' . esc_attr__( 'Storefront -  The perfect platform for your next WooCommerce project.', 'storefront' ) . '" rel="noreferrer">' . esc_html__( 'Built with Storefront', 'storefront' ) . '</a>.';
 			}
 		}
 
@@ -157,15 +157,30 @@ if (!function_exists('storefront_credit')) {
 
 		$links_output = apply_filters('storefront_credit_links_output', $links_output);
 		?>
-		<div class="site-info">
-			<?php echo esc_html(apply_filters('storefront_copyright_text', $content = '&copy; ' . get_bloginfo('name') . ' ' . gmdate('Y'))); ?>
+    <div class="site-info">
+        <div class="footer-elements ftleft">
+            <div class="social-profile">
+                <a target="_blank" href="https://facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a target="_blank" href="https://instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
 
-			<?php if (!empty($links_output)) { ?>
-				<br />
-				<?php echo wp_kses_post($links_output); ?>
-			<?php } ?>
-		</div><!-- .site-info -->
-		<?php
+        </div>
+        <div class="footer-elements ftright">
+            <?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; '. gmdate( 'Y' ) . ' '. get_bloginfo( 'name' ) ),  ); ?>
+
+            <?php if ( ! empty( $links_output ) ) { ?>
+            <?php echo wp_kses_post( $links_output ); ?>
+            <?php } ?>
+        </div>
+    </div><!-- .site-info -->
+    <?php
 	}
 }
 
