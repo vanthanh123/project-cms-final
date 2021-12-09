@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.entry-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.custom-cart{
+    font-style: Inter,sans-serif;
+    box-sizing: border-box;
+    color: #212121;
+}
+
+.custom-cart table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: middle;
+
+}
+
+.custom-cart  tr {
+    border: 1px solid rgba(33,33,33,0.1);
+}
+
+.custom-cart tr td, tr th {
+    padding: 10px !important;
+    vertical-align: middle;
+
+}
+
+.custom-cart table tr th{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.custom-cart .product-subtotal{
+    font-weight: bold;
+}
+
+.custom-cart .product-subtotal bdi{
+    font-weight: bold;
+    font-size: 16px;
+    color: #212121;
+}
+
+.custom-cart tbody .product-remove a{
+    font-size: 30px;
+    text-decoration: none !important;
+    line-height: 80px;
+}
+
+.custom-cart .product-thumbnail a{
+    display: block;
+    width: 100px;
+}
+
+.custom-cart .product-thumbnail a img{
+    display: block;
+    min-width: 100px;
+}
+
+.custom-cart tbody .product-name a,.custom-cart tbody  .product-price bdi{
+    font-size: 16px ;
+    color: #212121 ;
+    text-overflow: hidden;
+    text-decoration: none ;
+    
+}
+
+.custom-cart .product-quantity{
+    position: relative;
+}
+  
+ .custom-cart .inline-group .quantity {
+    text-align: right;
+  }
+
+  .custom-cart .qty[type="number"]{
+      min-width: 80px;
+      background-color:#fff;
+      border: 1px solid #212121;
+  }
+
+  
+ .custom-cart .qty[type="number"]::-webkit-inner-spin-button,
+ .custom-cart .qty[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .custom-cart .btn-minus{
+      position: absolute;
+      top: 54px;
+      left: 14px;
+  }
+
+  .custom-cart .btn-plus{
+    position: absolute;
+    top: 54px;
+    right: 50px;
+}
+
+.custom-cart .btn-minus:hover,.custom-cart .btn-plus:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.custom-cart .actions{
+    border: none !important;
+    background-color:white !important;
+}
+
+.custom-cart .actions .coupon input{
+    background-color:white;
+    border: 1px solid #212121;
+}
+
+.custom-cart .actions .coupon button{
+    background-color: #212121;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    margin-left: -3px;
+    padding-top: 7.5px;
+    height: 42px;
+}
+
+.custom-cart .actions .coupon button:hover{
+    opacity: 0.4;
+    
+}
+
+.custom-cart .actions .update-cart{
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #212121;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.custom-cart .actions .update-cart:hover{
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
