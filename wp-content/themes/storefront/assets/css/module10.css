@@ -48,7 +48,7 @@
     padding-right: 5%;
 }
 
-.site-footer .site-info .ftright {
+.site-footer .site-info .ftright a {
     text-decoration: underline;
 }
 
