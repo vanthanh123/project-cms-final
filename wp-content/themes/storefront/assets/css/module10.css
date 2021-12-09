@@ -1,3 +1,7 @@
+.footer-widgets {
+    max-width: 100% !important;
+}
+
 .footer-widget-1,
 .footer-widget-2,
 .footer-widget-3 {
@@ -44,7 +48,7 @@
     padding-right: 5%;
 }
 
-.site-footer .site-info .ftright {
+.site-footer .site-info .ftright a {
     text-decoration: underline;
 }
 
