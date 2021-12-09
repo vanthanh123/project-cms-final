@@ -86,6 +86,7 @@
   align-items: center;
   display: flex;
   border: none;
+  outline: none;
 }
 
 .pum-container .pum-content>:first-child {
