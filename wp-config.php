@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress_botiga_cosmetic_shop' );
+define( 'DB_NAME', 'botiga_shop_chuyen_de_cms' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );

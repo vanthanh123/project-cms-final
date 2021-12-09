@@ -154,11 +154,11 @@ if (!function_exists('storefront_before_content')) {
 				</div>
 
 				<div class="site-header-profile">
-					<a href="http://project_finish_cms.local/my-account/">
-						<span style="font-size: 1.3em; color: #747474;">
-							<i class="fas fa-user"></i>
-						</span>
-					</a>
+						<a href="http://botiga_shop.local/my-account/">
+							<span style="font-size: 1.3em; color: #747474;">
+								<i class="fas fa-user"></i>
+							</span>
+						</a>
 				</div>
 
 				<ul id="site-header-cart" class="site-header-cart menu">
