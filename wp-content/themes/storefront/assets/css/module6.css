@@ -9,7 +9,7 @@ ul.list-product-feature li.product img {
   width: 100%;
 }
 
-.feature-product-content p {
+.feature-product-content p.featured-collection-heading-2 {
   margin: 0 0 2.2em;
   font-size: 18px;
   font-family: Inter, sans-serif;
@@ -20,7 +20,7 @@ ul.list-product-feature li.product img {
   color: #212121;
 }
 
-.feature-product-content h2.has-text-align-center {
+#main article.page div.feature-product-content h2.featured-collection-heading {
   font-size: 40px;
   font-family: Inter, sans-serif;
   margin-top: 120px;
