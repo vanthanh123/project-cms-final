@@ -1,3 +1,7 @@
+.footer-widgets {
+    max-width: 100% !important;
+}
+
 .footer-widget-1,
 .footer-widget-2,
 .footer-widget-3 {
