@@ -1,5 +1,4 @@
-<!-- start Simple Custom CSS and JS -->
-<style type="text/css">
+<!-- start Simple Custom CSS and JS --><style type="text/css">
 /* Add your CSS code here.
 
 For example:
@@ -9,8 +8,10 @@ For example:
 
 For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
 
-End of comment */ 
-.footer-widget-1,
+End of comment */
+
+
+/* .footer-widget-1,
 .footer-widget-2,
 .footer-widget-3 {
     padding-right: 3%;
@@ -67,7 +68,6 @@ End of comment */
 .social-profile a {
     font-size: 20px;
     margin-right: 40px;
-}
+} */
 
-</style>
-<!-- end Simple Custom CSS and JS -->
+</style><!-- end Simple Custom CSS and JS -->
