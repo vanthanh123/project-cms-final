@@ -32,9 +32,9 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/module3.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/module6.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/module11.css">
-
-<?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/module4.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/module12.css">
+<?php wp_head(); ?>
 
 </head>
 

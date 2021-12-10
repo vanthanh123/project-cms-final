@@ -35,7 +35,7 @@
 }
 
 .custom-cart-totals .cart-subtotal th{
-    padding: 15px 30px;
+    padding: 15px 30px !important;
 }
 
 .custom-cart-totals .cart-subtotal::after{
@@ -51,7 +51,7 @@
 }
 
 .custom-cart-totals .order-total th{
-    padding: 15px 30px;
+    padding: 15px 30px !important;
 }
 
 .custom-cart-totals .order-total th{

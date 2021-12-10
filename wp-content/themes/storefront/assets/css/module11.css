@@ -101,7 +101,7 @@
   .custom-cart .btn-plus{
     position: absolute;
     top: 54px;
-    right: 50px;
+    right: 70px;
 }
 
 .custom-cart .btn-minus:hover,.custom-cart .btn-plus:hover{
@@ -125,9 +125,8 @@
     font-size: 16px;
     text-transform: uppercase;
     transition: all 0.2s ease;
-    margin-left: -3px;
-    padding-top: 7.5px;
-    height: 42px;
+    margin-left: -4px;
+    height: 48px;
 }
 
 .custom-cart .actions .coupon button:hover{
