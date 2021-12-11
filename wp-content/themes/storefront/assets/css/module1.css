@@ -1,0 +1,134 @@
+/* Module 1  */
+#masthead {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.site-branding-and-search {
+  display: none;
+}
+
+#masthead .storefront-primary-navigation .header-top {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.site-name-brand {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-name-brand p {
+  margin: 0;
+  font-size: xx-large;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: #060606;
+}
+
+.header-top .row .header-search {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.header-top .row .col-md-5 .site-header-search,
+.site-header-profile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 25px;
+}
+
+.site-header-search .icon-search-toggle {
+  cursor: pointer;
+}
+
+.site-header-cart li .cart-contents::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07a";
+  font-size: 1.3em;
+  color: #747474;
+}
+
+.header-top .row .col-md-5 .site-header-cart {
+  width: auto;
+}
+
+.site-header-cart li .cart-contents .count {
+  position: absolute;
+  top: 23px;
+  left: 14px;
+  border: 1px solid black;
+  opacity: 1;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 17px;
+  width: 17px;
+  background: white;
+  color: black;
+}
+
+.menu-header-top #site-navigation .primary-navigation #menu-botiga-shop {
+  font-size: large;
+  color: #dd0d0d;
+}
+/* Module 1 end*/
+
+/* Module 2 */
+.pum-theme-26 .pum-content, .pum-theme-lightbox .pum-content {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: none;
+  outline: none;
+}
+
+.pum-container .pum-content>:first-child {
+  margin-bottom: 0;
+  width: 50%;
+  display: flex;
+}
+
+.pum-theme-26 .pum-container, .pum-theme-lightbox .pum-container {
+  border: 14px solid #ffffff;
+  box-shadow: none;
+}
+
+.is-form-style.is-form-style-3 input.is-search-input {
+  height: 60px;
+  border: 2px solid black !important;
+}
+
+.is-form-style button.is-search-submit {
+  height: 60px;
+  width: 10%;
+}
+
+.is-form-style {
+  display: flex;
+}
+
+.pum-theme-26, .pum-theme-lightbox { 
+  background-color: rgb(33 33 33 / 30%) ;
+} 
+
+.is-form-id-16 .is-search-submit:focus, .is-form-id-16 .is-search-submit:hover, .is-form-id-16 .is-search-submit, .is-form-id-16 .is-search-icon {
+  border: none;
+}
+
+#pum-34 #popmake-34 button.pum-close {
+  background: transparent;
+  color: #212121;
+  box-shadow: none;
+}
+
+div#n2-ss-2 .n2-font-68b0945e46f38dcbb554aaf56db03ed8-link a {
+  transition: all, 0.3s;
+}
+/* Module 2 end*/

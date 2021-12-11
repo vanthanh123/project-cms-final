@@ -731,6 +731,7 @@ if ( ! class_exists( 'Storefront_Customizer' ) ) :
 			.site-title a:hover,
 			.site-header ul.menu li.current-menu-item > a {
 				color: ' . storefront_adjust_color_brightness( $storefront_theme_mods['header_link_color'], 65 ) . ';
+				text-decoration: none;
 			}
 
 			table:not( .has-background ) th {
