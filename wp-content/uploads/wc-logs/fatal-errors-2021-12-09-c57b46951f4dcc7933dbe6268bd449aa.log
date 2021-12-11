@@ -1,0 +1,50 @@
+2021-12-09T05:04:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "storefront_header_container" not found or invalid function name in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\header.php(56): do_action('storefront_head...')
+#3 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\template.php(770): require_once('D:\\HOC KY 5\\Chu...')
+#4 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\template.php(716): load_template('D:\\HOC KY 5\\Chu...', true, Array)
+#5 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\template-fullwidth.php(10): get_header()
+#7 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\template-loader.php(106): include('D:\\HOC KY 5\\Chu...')
+#8 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-blog-header.php(19): require_once('D:\\HOC KY 5\\Chu...')
+#9 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\index.php(17): require('D:\\HOC KY 5\\Chu...')
+#10 {main}
+  thrown in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php on line 303
+
+2021-12-09T05:04:16+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('tranthuong02100...')
+#2 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-12-09T05:04:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "storefront_header_container" not found or invalid function name in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\header.php(56): do_action('storefront_head...')
+#3 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\template.php(770): require_once('D:\\HOC KY 5\\Chu...')
+#4 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\template.php(716): load_template('D:\\HOC KY 5\\Chu...', true, Array)
+#5 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\template-fullwidth.php(10): get_header()
+#7 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\template-loader.php(106): include('D:\\HOC KY 5\\Chu...')
+#8 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-blog-header.php(19): require_once('D:\\HOC KY 5\\Chu...')
+#9 D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\index.php(17): require('D:\\HOC KY 5\\Chu...')
+#10 {main}
+  thrown in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-includes\class-wp-hook.php on line 303
+
+2021-12-09T05:12:58+00:00 CRITICAL syntax error, unexpected token "<<" in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\inc\storefront-template-functions.php on line 42
+
+2021-12-09T05:12:59+00:00 CRITICAL syntax error, unexpected token "<<" in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\inc\storefront-template-functions.php on line 42
+
+2021-12-09T05:35:15+00:00 CRITICAL syntax error, unexpected token "<<" in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\inc\storefront-template-functions.php on line 42
+
+2021-12-09T05:35:16+00:00 CRITICAL syntax error, unexpected token "<<" in D:\HOC KY 5\Chuyên Đề CMS\Project Finish\project-cms-final\wp-content\themes\storefront\inc\storefront-template-functions.php on line 42
+

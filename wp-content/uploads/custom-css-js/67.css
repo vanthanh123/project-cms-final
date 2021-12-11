@@ -1,0 +1,37 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.entry-taxonomy{
+  text-align: center;
+}
+
+.entry-taxonomy .taxonomy-title p{
+    color: #000000;
+}
+
+.entry-taxonomy .wp-block-group{
+  margin: 5px 10px;
+}
+.entry-taxonomy .taxonomy-img .wp-block-group__inner-container{
+  display: flex;
+}
+.entry-taxonomy .block-column .wp-block-group__inner-container{
+display: block !important;
+}
+.entry-taxonomy a{
+      color: #000000;
+}
+.entry-taxonomy a:hover, a:focus, a:active {
+    color: #757575;
+}</style>
+<!-- end Simple Custom CSS and JS -->
